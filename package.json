@@ -1,0 +1,29 @@
+{
+  "name": "winston-slack",
+  "version": "1.0.0",
+  "description": "A slack transport for winston",
+  "main": "src/winston-slack.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpotaczek/winston-slack.git"
+  },
+  "keywords": [
+    "winston",
+    "slack"
+  ],
+  "devDependencies": {
+    "winston": ""
+  },
+  "peerDependencies": {
+    "winston": ">=0.5.0 <3.0.0"
+  },  
+  "author": "Brady Potaczek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bpotaczek/winston-slack/issues"
+  },
+  "homepage": "https://github.com/bpotaczek/winston-slack#readme"
+}
