@@ -5,7 +5,7 @@ A email transport for [winston](https://github.com/winstonjs/winston).
 
 ``` sh
 $ npm install winston
-$ npm install winston-slack
+$ npm install winston-slack-webhook
 ```
 Setup an incoming webhook into your application
 https://my.slack.com/services/new/incoming-webhook/
@@ -15,10 +15,10 @@ https://my.slack.com/services/new/incoming-webhook/
 var winston = require('winston');
 
 /*
- * Requiring `winston-slack` will expose
+ * Requiring `winston-slack-webhook` will expose
  * `winston.transports.Slack`
  */
-require('winston-slack').Slack;
+require('winston-slack-webhook').Slack;
 
 winston.add(winston.transports.Slack, options);
 ```
