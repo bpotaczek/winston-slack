@@ -39,6 +39,9 @@ Slack.prototype.log = function(level, msg, meta, callback) {
         if (error) {
             self.emit('error', error);
         }
+        if (body !== 'ok') {
+            self.emit('error', body);   
+        }
         callback(null, true);
     });
 };
