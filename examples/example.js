@@ -1,5 +1,5 @@
 var winston = require('winston');
-var slack = require('./utils/winston-slack').Slack;
+var slack = require('./utils/winston-slack-web').Slack;
 
 winston.add(winston.transports.Slack, { 
     url: 'https://hooks.slack.com/services/[mykey]', 
