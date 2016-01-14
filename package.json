@@ -1,6 +1,6 @@
 {
   "name": "winston-slack-web",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A slack transport for winston",
   "main": "src/winston-slack-web.js",
   "scripts": {
