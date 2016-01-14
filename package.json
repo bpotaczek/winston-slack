@@ -1,5 +1,5 @@
 {
-  "name": "winston-slack-webhook",
+  "name": "winston-slack-web",
   "version": "1.0.0",
   "description": "A slack transport for winston",
   "main": "src/winston-slack.js",
