@@ -6,7 +6,7 @@ var Slack = exports.Slack = function(options) {
     options = options || {};
 
     if (!options.url) {
-        throw new Error('winston-slack requires \'url\' property');
+        throw new Error('winston-slack-web requires \'url\' property');
     }
 
     this.url = options.url;
