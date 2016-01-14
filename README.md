@@ -1,5 +1,5 @@
 
-A email transport for [winston][0].
+A email transport for [winston](https://github.com/winstonjs/winston).
 
 ## Installation
 
