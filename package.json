@@ -1,6 +1,6 @@
 {
   "name": "winston-slack-web",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A slack transport for winston",
   "main": "src/winston-slack-web.js",
   "scripts": {
@@ -20,7 +20,7 @@
   },
   "peerDependencies": {
     "winston": ">=0.5.0 <3.0.0"
-  },  
+  },
   "author": "Brady Potaczek",
   "license": "MIT",
   "bugs": {
